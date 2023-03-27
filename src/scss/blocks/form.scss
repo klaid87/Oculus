@@ -1,0 +1,55 @@
+.form {
+  width: 50%;
+
+  &__title {
+    line-height: 1.16;
+    font-size: 24px;
+    color: $color-black;
+    margin-bottom: 10px;
+  }
+
+  &__wrapper {
+    position: relative;
+  }
+
+  &__field {
+    padding: 18px 55px 18px 0;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #CACAD6;
+    outline: none;
+    margin-bottom: 10px;
+    
+    &::placeholder {
+      font-size: 13px;
+      line-height: 1.15;
+      color: #CACAD6;
+    }
+
+    &:focus {
+      border-image: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%);
+      border-image-slice: 1;
+    }
+  }
+
+  &__btn {
+    background-color: #CACAD6;
+    font-weight: 700;
+    color: $text-color;
+    position: absolute;
+    padding-top: 6px;
+    top: 0;
+    right: 0;
+    transition: all 0.3s;
+
+    &:hover {
+      background: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%);
+      color: #fff;
+    }
+  }
+
+  &__text {
+    font-size: 13px;
+    line-height: 15px;
+  }
+}

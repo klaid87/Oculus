@@ -1,0 +1,32 @@
+.features {
+  margin-bottom: 100px;
+  
+  &__titles {
+    display: flex;
+  }
+
+  &__title {
+    margin-right: 132px;
+  }
+
+  &__text {
+    max-width: 330px;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 41px;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 20px;
+  }
+
+  &__body {
+    display: flex;
+  }
+
+  &__tabs {
+    margin-right: 112px;
+  }
+}

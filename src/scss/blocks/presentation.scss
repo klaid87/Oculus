@@ -1,0 +1,26 @@
+.presentation {
+  margin-bottom: 100px;
+
+  &__body {
+    background-image: url('../images/presentation/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+    position: relative;
+  }
+
+  &__btn {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 80px;
+    color: #fff;
+    background: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%);
+    transition: all 0.3s;
+
+    &:hover {
+      color: $color-black;
+    }
+  }
+}

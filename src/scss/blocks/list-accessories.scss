@@ -1,0 +1,51 @@
+.list-accessories {
+  display: flex;
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border: 1px solid;
+    border-image: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%);
+    border-image-slice: 1;
+    max-width: 300px;
+    min-height: 540px;
+    padding: 20px;
+  }
+  
+  &__img {
+    margin-bottom: 10px;
+  }
+
+  &__title {
+    font-size: 24px;
+    line-height: 1.16;
+    color: $color-black;
+    min-height: 67px;
+  }
+
+  &__description {
+    margin-top: auto;
+  }
+
+  &__price {
+    font-weight: 700;
+    color: $color-black;
+    margin-top: auto;
+    margin-bottom: 20px;
+  }
+
+  &__link {
+    background: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-align: center;
+    width: 100%;
+    border: 1px solid;
+    border-image: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%);
+    border-image-slice: 1;
+    font-weight: 700;
+    padding: 6px 10px;
+  }
+}

@@ -1,0 +1,30 @@
+.banner {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 110px;
+  overflow-x: hidden;
+
+  &__text {
+    font-weight: 700;
+    font-size: 400px;
+    line-height: 380px;
+    background: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    opacity: 0.1;
+    position: absolute;
+    z-index: -1;
+    animation: line-text 6s linear 1s infinite;
+  }
+
+  &__img {
+    margin-bottom: 30px;
+  }
+
+  &__payment {
+    margin-bottom: 10px;
+  }
+}

@@ -1,0 +1,34 @@
+.greeting {
+  background-image: url(../images/greeting/greetingbg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  margin-bottom: 100px;
+  min-height: calc(100vh - 80px);
+
+  &__payment {
+    margin-bottom: 10px;
+  }
+
+  &__content {
+    margin-bottom: 50px;
+  }
+
+  &__heading {
+    font-size: 96px;
+    line-height: 1.14;
+    margin-bottom: 10px;
+    padding-top: 230px;
+  }
+
+  &__text {
+    font-size: 36px;
+    line-height: 1.14;
+    margin-bottom: 5px;
+  }
+
+  &__sub-text {
+    font-size: 13px;
+    line-height: 1.15;
+  }
+}

@@ -1,0 +1,28 @@
+.payment {
+  font-size: 0;
+
+  &__button {
+    display: inline-block;
+    max-width: 300px;
+    font-size: 16px;
+    line-height: 1.12;
+    text-transform: uppercase;
+    color: $color-white;
+    padding: 21px 111px;
+    background: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%);
+
+    &--price {
+      color: $text-color;
+      background: transparent;
+      padding: 20px 105px;
+      border: 1px solid;
+      border-image: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%);
+      border-image-slice: 1;
+    }
+  }
+
+  &__sub-text {
+    font-size: 13px;
+    line-height: 1.15;
+  }
+}

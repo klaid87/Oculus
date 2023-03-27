@@ -1,0 +1,14 @@
+.footer {
+  // $self: &;
+  // // #{$self}
+  border-top: 1px solid #CACAD6;
+  border-bottom: 1px solid #CACAD6;
+  margin-bottom: 40px;
+
+  .navigation {
+    padding: 30px 0;
+  }
+  .navigation__list {
+    margin-right: 110px;
+  }
+}

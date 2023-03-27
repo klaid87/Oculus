@@ -1,0 +1,22 @@
+.video {
+  position: relative;
+  width: 280px;
+  height: 150px;
+  background: url("../images/tabs/contentbox.jpg") no-repeat center;
+
+  &__btn {
+    position: absolute;
+    top: 66px;
+    left: 31px;
+  }
+
+  &__text {
+    position: absolute;
+    top: 125px;
+    left: 9px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 1.15;
+    color: $color-white;
+  }
+}

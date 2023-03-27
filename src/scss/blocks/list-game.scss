@@ -1,0 +1,36 @@
+.list-game {
+  display: flex;
+
+  &__item {
+    width: calc(100% / 3);
+    padding: 20px 12px 22px 20px;
+    border: 1px solid;
+    border-image: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%);
+    border-image-slice: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__title {
+    line-height: 1.16;
+    font-size: 24px;
+    font-weight: 400;
+    color: $color-black;
+    margin-bottom: 10px;
+  }
+
+  &__text {
+    line-height: 1.12;
+    font-size: 16px;
+    margin-bottom: 40px;
+  }
+
+  &__link {
+    background: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-top: auto;
+  }
+}
+

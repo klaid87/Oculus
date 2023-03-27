@@ -1,0 +1,17 @@
+.contact {
+  margin-bottom: 100px;
+  
+  &__body {
+    display: flex;
+  }
+
+  &__link {
+    margin-top: auto;
+    margin-left: auto;
+    color: $text-color;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

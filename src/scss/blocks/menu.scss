@@ -1,0 +1,20 @@
+.menu {
+  display: flex;
+
+  &__item {
+    &:not(:last-child) {
+      margin-right: 20px;
+    }
+  }
+
+  &__link {
+    color: $text-color;
+    text-transform: uppercase;
+    line-height: 1.5;
+    transition: all 0.3s;
+   
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
