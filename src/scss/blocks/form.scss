@@ -19,7 +19,7 @@
     border-bottom: 1px solid #CACAD6;
     outline: none;
     margin-bottom: 10px;
-    
+
     &::placeholder {
       font-size: 13px;
       line-height: 1.15;
@@ -51,5 +51,12 @@
   &__text {
     font-size: 13px;
     line-height: 15px;
+  }
+}
+
+@media(max-width: $mobile-width) {
+  .form {
+    width: 100%;
+    margin-bottom: 15px;
   }
 }

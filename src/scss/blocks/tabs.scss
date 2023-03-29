@@ -16,3 +16,16 @@
     }
   }
 }
+
+@media(max-width: $tablet-width) {
+  .tabs {
+    display: flex;
+    margin-right: 0;
+    
+    &__item {
+      &:not(:last-child) {
+        margin-right: 15px;
+      }
+    }
+  }
+}

@@ -18,3 +18,37 @@
     }
   }
 }
+
+@media(max-width: $tablet-width) {
+  .menu {
+    opacity: 0;
+    transform: translateX(-100%);
+    width: 320px;
+    padding: 50px 20px;
+    background-color: $color-black;
+    transition: all 0.3s;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    flex-direction: column;
+    
+    &--opened {
+      opacity: 1;
+      transform: translateX(0);
+    }
+
+    &__item {
+      margin-bottom: 15px;
+      text-align: center;
+      
+      &:not(:last-child) {
+        margin-right: 0;
+      }
+    }
+
+    &__link {
+      color: #fff;
+      font-size: 24px;
+    }
+  }
+}

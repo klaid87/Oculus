@@ -43,3 +43,20 @@
     transition: all 0.6s;
   }
 }
+
+@media(max-width: $tablet-width) {
+  .games {
+    
+    &__body {
+      flex-direction: column;
+    }
+
+    &__content {
+      max-width: none;
+    }
+
+    &__link {
+      margin-bottom: 10px;
+    }
+  }
+}

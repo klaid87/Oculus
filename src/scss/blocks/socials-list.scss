@@ -16,3 +16,13 @@
     }
   }
 }
+
+@media(max-width: $tablet-width) {
+  .socials-list {
+    &__item {
+      &:not(:last-child) {
+        margin-right: 40px;
+      }
+    }
+  }
+}

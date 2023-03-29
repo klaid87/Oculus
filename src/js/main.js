@@ -2,9 +2,16 @@
 
 const tabItem = document.querySelectorAll('.tabs__btn');
 const tabContent = document.querySelectorAll('.tabs-content__item');
+const burger = document.querySelector('.burger')
+const menu = document.querySelector('.menu')
 
 tabItem.forEach(function(el) {
   el.addEventListener('click', open);
+})
+
+burger.addEventListener('click', function() {
+  menu.classList.toggle('menu--opened')
+  burger.classList.toggle('burger--opened')
 })
 
 function open(evt) {

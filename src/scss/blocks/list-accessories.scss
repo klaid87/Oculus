@@ -1,5 +1,7 @@
 .list-accessories {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 
   &__item {
     display: flex;
@@ -47,5 +49,14 @@
     border-image-slice: 1;
     font-weight: 700;
     padding: 6px 10px;
+  }
+}
+
+@media(max-width: $tablet-width) {
+  .list-accessories {
+    &__item {
+      margin-right: 10px;
+      margin-bottom: 10px;
+    }
   }
 }

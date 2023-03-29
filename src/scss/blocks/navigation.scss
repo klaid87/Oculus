@@ -11,3 +11,15 @@
     margin-right: auto;
   }
 }
+
+@media(max-width: $tablet-width) {
+  .navigation {
+    &__logo {
+      margin-left: auto;
+    }
+
+    &__list {
+      margin-right: 0;
+    }
+  }
+}

@@ -10,6 +10,7 @@
     color: $color-white;
     padding: 21px 111px;
     background: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%);
+    font-weight: 700;
 
     &--price {
       color: $text-color;
@@ -24,5 +25,18 @@
   &__sub-text {
     font-size: 13px;
     line-height: 1.15;
+  }
+}
+
+@media(max-width: $mobile-width) {
+  .payment {
+    &__button {
+      padding: 21px 80px;
+
+      &--price {
+        padding: 20px 74px;
+        background-color: #fff;
+      }
+    }
   }
 }

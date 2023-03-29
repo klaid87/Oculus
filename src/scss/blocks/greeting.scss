@@ -32,3 +32,30 @@
     line-height: 1.15;
   }
 }
+
+@media(max-width: $tablet-width) {
+  .greeting {
+    height: 100vh;
+    
+    &__body {
+      text-align: center;
+    }
+  }
+}
+
+@media(max-width: $tablet-width) {
+  .greeting {
+    &__heading {
+      font-size: 46px;
+      padding-top: 100px;
+    }
+
+    &__text {
+      font-size: 26px;
+    }
+
+    &__sub-text {
+      font-size: 10px;
+    }
+  }
+}

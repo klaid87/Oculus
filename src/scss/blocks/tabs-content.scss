@@ -6,11 +6,16 @@
   &__item {
     display: flex;
     opacity: 0;
-    position: absolute;
+    height: 0;
 
     &--active {
       opacity: 1;
+      height: auto;
     }
+  }
+
+  &__img {
+    object-fit: cover;
   }
   
   &__box {
@@ -31,5 +36,20 @@
     font-size: 16px;
     line-height: 18px;
     margin-bottom: 40px;
+  }
+}
+
+@media(max-width: $tablet-width) {
+  .tabs-content {
+    &__item {
+      flex-direction: column;
+    }
+
+    &__box {
+      margin-left: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
   }
 }

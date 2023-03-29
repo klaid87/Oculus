@@ -28,3 +28,9 @@
     margin-bottom: 10px;
   }
 }
+
+@media(max-width: $tablet-width) {
+  .banner {
+   margin-bottom: 50px;
+  }
+}
