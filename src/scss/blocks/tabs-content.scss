@@ -1,16 +1,16 @@
 .tabs-content {
-  position: relative;
   width: 100%;
   min-height: 300px;
 
   &__item {
-    display: flex;
-    opacity: 0;
-    height: 0;
-
+    // display: flex;
+    // opacity: 0;
+    // height: 0;
+    display: none;
     &--active {
-      opacity: 1;
-      height: auto;
+      // opacity: 1;
+      // height: auto;
+      display: flex;
     }
   }
 
